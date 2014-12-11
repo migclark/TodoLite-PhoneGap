@@ -37,6 +37,7 @@ Initialize the app, connect to the database, draw the initial UI
 // with appReady.
 
 function onDeviceReady() {
+    alert('onDeviceReady');
     setupConfig(function(err){
         if (err) {
             alert(err)
